@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout main {
+  width: 100%;
+  padding: 2rem;
+}
+
+.menu {
+  padding: 2rem;
+  background-color: rgb(244, 244, 244);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

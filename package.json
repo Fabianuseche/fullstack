@@ -1,0 +1,29 @@
+{
+  "name": "fullstack-crud",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:front": "vite --port 8080",
+    "dev:back": "nodemon --watch backend --experimental-modules --es-module-specifier-resolution=node backend/index.js",
+    "dev": "concurrently \"npm:dev:*\""
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "fastify": "^4.13.0",
+    "knex": "^2.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "vite": "^4.0.0"
+  }
+}
